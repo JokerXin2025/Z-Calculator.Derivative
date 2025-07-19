@@ -1,0 +1,30 @@
+# Jetbrain's IDE generated files
+.idea/
+cmake-build-*/
+
+# VsCode generated files
+.vscode/
+
+# Some library files
+*.a
+*.so
+*.dylib
+*.lib
+
+# Some other binary files
+*.pdf
+
+# Some other files and folders
+build/
+install/
+output-build-*
+output-install-*
+
+# Some archive files
+*.tar
+*.gz
+*.tgz
+*.xz
+*.bz2
+*.zip
+*.bin

@@ -2,14 +2,37 @@
 
 This is the README documentation for the project __Z·Calculator__ *.Derivative(2025)* (hereinafter referred to as _Derivative_).
 
+## How to build it?
+
+This project supports the CMake build system, so the build process follows the conventions of the CMake build system. 
+The build steps are as follows:
+
+```shell
+mkdir -p build/
+cd build/
+cmake ../
+make
+make install
+```
+
+To specify the installation directory, you can use the `-DCMAKE_INSTALL_PREFIX` option in the CMake command above.
+For example, the following command installs the software to `${HOME}/.local`:
+
+```shell
+cmake ../ -DCMAKE_INSTALL_PREFIX=${HOME}/.local
+```
 
 ## What Is It?
 
-_Derivative_ is a subproject of the unreleased project __Z·Calculator__. __Z·Calculator__ is a highly extensible and portable universal symbolic computation model. It computes user inputs entered in the console while allowing users to modify the program itself using its built-in programming language _Origami_.
+_Derivative_ is a subproject of the unreleased project __Z·Calculator__. __Z·Calculator__ is a highly extensible and 
+portable universal symbolic computation model. It computes user inputs entered in the console while allowing users to 
+modify the program itself using its built-in programming language _Origami_.
 
-In _Derivative_, we retain a portion of __Z·Calculator__'s fundamental framework and have predefined several types and tree transformation functions related to derivative calculations.
+In _Derivative_, we retain a portion of __Z·Calculator__'s fundamental framework and have predefined several types and 
+tree transformation functions related to derivative calculations.
 
-This project will be continuously updated and maintained until it is merged as a model into an official release version of __Z·Calculator__.
+This project will be continuously updated and maintained until it is merged as a model into an official release version 
+of __Z·Calculator__.
 
 
 ## How to Use It?
